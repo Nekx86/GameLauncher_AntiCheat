@@ -1,6 +1,6 @@
 # Awesome Game Launcher & Anti Cheat
 
-![Project Logo](images/logo.png)
+![Project Logo](images/Logo.png)
 
 Bu proje, oyunlarınızı başlatmak için kullanabileceğiniz güçlü bir oyun başlatıcı ve hile karşıtı (anti cheat) bir sistemi içerir. Projeyi kendi oyunlarınız veya projeleriniz için kullanabilir, özelleştirebilir ve geliştirebilirsiniz.
 
