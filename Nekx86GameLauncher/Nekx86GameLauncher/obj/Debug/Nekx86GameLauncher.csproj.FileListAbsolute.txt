@@ -1,0 +1,13 @@
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\bin\Debug\Nekx86GameLauncher.exe.config
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\bin\Debug\Nekx86GameLauncher.exe
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\bin\Debug\Nekx86GameLauncher.pdb
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\bin\Debug\Siticone.UI.dll
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.csproj.AssemblyReference.cache
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.Form1.resources
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.Properties.Resources.resources
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.csproj.GenerateResource.cache
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.csproj.CopyComplete
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.exe
+C:\Users\Nekx\Documents\GitHub\GameLauncher_AntiCheat\Nekx86GameLauncher\Nekx86GameLauncher\obj\Debug\Nekx86GameLauncher.pdb
