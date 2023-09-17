@@ -1,4 +1,4 @@
-# Awesome Game Launcher & Anti Cheat
+# Nekx86 Game Launcher & Anti Cheat
 
 ![Project Logo](images/Logo.png)
 
