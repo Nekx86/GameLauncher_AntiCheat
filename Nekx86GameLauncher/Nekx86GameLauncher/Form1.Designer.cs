@@ -32,7 +32,6 @@
             this.TopPanel = new System.Windows.Forms.Panel();
             this.BottomPanel = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.siticoneControlBox1 = new Siticone.UI.WinForms.SiticoneControlBox();
@@ -59,15 +58,22 @@
             this.label12 = new System.Windows.Forms.Label();
             this.siticoneRoundedComboBox1 = new Siticone.UI.WinForms.SiticoneRoundedComboBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.LoginPanel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.UpdatePanel = new System.Windows.Forms.Panel();
+            this.siticoneProgressBar1 = new Siticone.UI.WinForms.SiticoneProgressBar();
+            this.ProgressText = new System.Windows.Forms.Label();
             this.TopPanel.SuspendLayout();
             this.BottomPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.siticonePanel1.SuspendLayout();
             this.siticonePanel2.SuspendLayout();
             this.siticonePanel3.SuspendLayout();
             this.siticonePanel4.SuspendLayout();
             this.siticonePanel5.SuspendLayout();
+            this.LoginPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.UpdatePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // TopPanel
@@ -85,13 +91,9 @@
             // BottomPanel
             // 
             this.BottomPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(83)))));
-            this.BottomPanel.Controls.Add(this.label13);
-            this.BottomPanel.Controls.Add(this.siticoneRoundedComboBox1);
-            this.BottomPanel.Controls.Add(this.siticoneRoundedTextBox2);
-            this.BottomPanel.Controls.Add(this.label12);
-            this.BottomPanel.Controls.Add(this.siticoneRoundedTextBox1);
-            this.BottomPanel.Controls.Add(this.UsernameLabel);
             this.BottomPanel.Controls.Add(this.siticoneRoundedButton1);
+            this.BottomPanel.Controls.Add(this.UpdatePanel);
+            this.BottomPanel.Controls.Add(this.LoginPanel);
             this.BottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.BottomPanel.Location = new System.Drawing.Point(0, 432);
             this.BottomPanel.Name = "BottomPanel";
@@ -111,16 +113,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(300, 385);
             this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Nekx86GameLauncher.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(563, 379);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // siticoneDragControl1
             // 
@@ -350,7 +342,7 @@
             this.UsernameLabel.AutoSize = true;
             this.UsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.UsernameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.UsernameLabel.Location = new System.Drawing.Point(6, 23);
+            this.UsernameLabel.Location = new System.Drawing.Point(3, 25);
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.Size = new System.Drawing.Size(96, 16);
             this.UsernameLabel.TabIndex = 1;
@@ -370,7 +362,7 @@
             this.siticoneRoundedTextBox1.ForeColor = System.Drawing.Color.Black;
             this.siticoneRoundedTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneRoundedTextBox1.HoveredState.Parent = this.siticoneRoundedTextBox1;
-            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(108, 11);
+            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(105, 13);
             this.siticoneRoundedTextBox1.Name = "siticoneRoundedTextBox1";
             this.siticoneRoundedTextBox1.PasswordChar = '\0';
             this.siticoneRoundedTextBox1.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -394,7 +386,7 @@
             this.siticoneRoundedTextBox2.ForeColor = System.Drawing.Color.Black;
             this.siticoneRoundedTextBox2.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneRoundedTextBox2.HoveredState.Parent = this.siticoneRoundedTextBox2;
-            this.siticoneRoundedTextBox2.Location = new System.Drawing.Point(366, 11);
+            this.siticoneRoundedTextBox2.Location = new System.Drawing.Point(363, 13);
             this.siticoneRoundedTextBox2.Name = "siticoneRoundedTextBox2";
             this.siticoneRoundedTextBox2.PasswordChar = '*';
             this.siticoneRoundedTextBox2.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -409,7 +401,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Location = new System.Drawing.Point(317, 23);
+            this.label12.Location = new System.Drawing.Point(314, 25);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(43, 16);
             this.label12.TabIndex = 3;
@@ -431,7 +423,7 @@
             "EU",
             "ASIA"});
             this.siticoneRoundedComboBox1.ItemsAppearance.Parent = this.siticoneRoundedComboBox1;
-            this.siticoneRoundedComboBox1.Location = new System.Drawing.Point(639, 11);
+            this.siticoneRoundedComboBox1.Location = new System.Drawing.Point(636, 13);
             this.siticoneRoundedComboBox1.Name = "siticoneRoundedComboBox1";
             this.siticoneRoundedComboBox1.ShadowDecoration.Parent = this.siticoneRoundedComboBox1;
             this.siticoneRoundedComboBox1.Size = new System.Drawing.Size(89, 36);
@@ -442,11 +434,65 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Location = new System.Drawing.Point(576, 21);
+            this.label13.Location = new System.Drawing.Point(573, 23);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(57, 16);
             this.label13.TabIndex = 6;
             this.label13.Text = "Server:";
+            // 
+            // LoginPanel
+            // 
+            this.LoginPanel.Controls.Add(this.label13);
+            this.LoginPanel.Controls.Add(this.siticoneRoundedComboBox1);
+            this.LoginPanel.Controls.Add(this.UsernameLabel);
+            this.LoginPanel.Controls.Add(this.siticoneRoundedTextBox1);
+            this.LoginPanel.Controls.Add(this.siticoneRoundedTextBox2);
+            this.LoginPanel.Controls.Add(this.label12);
+            this.LoginPanel.Location = new System.Drawing.Point(0, 0);
+            this.LoginPanel.Name = "LoginPanel";
+            this.LoginPanel.Size = new System.Drawing.Size(734, 68);
+            this.LoginPanel.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Nekx86GameLauncher.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 47);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(596, 385);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // UpdatePanel
+            // 
+            this.UpdatePanel.Controls.Add(this.ProgressText);
+            this.UpdatePanel.Controls.Add(this.siticoneProgressBar1);
+            this.UpdatePanel.Location = new System.Drawing.Point(0, 0);
+            this.UpdatePanel.Name = "UpdatePanel";
+            this.UpdatePanel.Size = new System.Drawing.Size(734, 67);
+            this.UpdatePanel.TabIndex = 7;
+            // 
+            // siticoneProgressBar1
+            // 
+            this.siticoneProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.siticoneProgressBar1.Location = new System.Drawing.Point(17, 7);
+            this.siticoneProgressBar1.Name = "siticoneProgressBar1";
+            this.siticoneProgressBar1.ShadowDecoration.Parent = this.siticoneProgressBar1;
+            this.siticoneProgressBar1.Size = new System.Drawing.Size(690, 30);
+            this.siticoneProgressBar1.TabIndex = 0;
+            this.siticoneProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.siticoneProgressBar1.Value = 50;
+            // 
+            // ProgressText
+            // 
+            this.ProgressText.AutoSize = true;
+            this.ProgressText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.ProgressText.ForeColor = System.Drawing.Color.White;
+            this.ProgressText.Location = new System.Drawing.Point(12, 40);
+            this.ProgressText.Name = "ProgressText";
+            this.ProgressText.Size = new System.Drawing.Size(667, 20);
+            this.ProgressText.TabIndex = 1;
+            this.ProgressText.Text = "Oyun dosyaları indiriliyor. (Filename - CurrentFileCount / RemainingFileCount)";
             // 
             // Form1
             // 
@@ -464,9 +510,7 @@
             this.TopPanel.ResumeLayout(false);
             this.TopPanel.PerformLayout();
             this.BottomPanel.ResumeLayout(false);
-            this.BottomPanel.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.siticonePanel1.ResumeLayout(false);
             this.siticonePanel1.PerformLayout();
             this.siticonePanel2.ResumeLayout(false);
@@ -477,6 +521,11 @@
             this.siticonePanel4.PerformLayout();
             this.siticonePanel5.ResumeLayout(false);
             this.siticonePanel5.PerformLayout();
+            this.LoginPanel.ResumeLayout(false);
+            this.LoginPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.UpdatePanel.ResumeLayout(false);
+            this.UpdatePanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -486,7 +535,6 @@
         private System.Windows.Forms.Panel TopPanel;
         private System.Windows.Forms.Panel BottomPanel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private Siticone.UI.WinForms.SiticoneDragControl siticoneDragControl1;
         private Siticone.UI.WinForms.SiticoneControlBox siticoneControlBox2;
@@ -513,6 +561,11 @@
         private System.Windows.Forms.Label UsernameLabel;
         private System.Windows.Forms.Label label13;
         private Siticone.UI.WinForms.SiticoneRoundedComboBox siticoneRoundedComboBox1;
+        private System.Windows.Forms.Panel LoginPanel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel UpdatePanel;
+        private Siticone.UI.WinForms.SiticoneProgressBar siticoneProgressBar1;
+        private System.Windows.Forms.Label ProgressText;
     }
 }
 
